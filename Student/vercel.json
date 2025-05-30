@@ -1,0 +1,35 @@
+{
+    "routes":[
+        {
+            "src":"/",
+            "dest":"/"
+        },
+        {
+            "src":"/share/notes",
+            "dest":"/"
+        },
+        {
+            "src":"/signup",
+            "dest":"/"
+        },
+        {
+            "src":"/login",
+            "dest":"/"
+        },
+        {
+            "src":"/chatbot",
+            "dest":"/"
+        },
+        {
+            "src":"/category",
+            "dest":"/"
+        },
+        {
+            "src":"/category/",
+            "dest":"/"
+        }
+      
+        
+     
+    ]
+}

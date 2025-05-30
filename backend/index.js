@@ -11,15 +11,15 @@ dotenv.config();
 const app = express();
 const PORT = 5000;
 
-app.use(
-  cors()
-);
-// app.use(cors({
-//   origin:['https://student-study-website.vercel.app'],
-//   methods:["POST","GET"],
-//   credentials:true,
-//   optionsSuccessStatus: 200,
-// }));
+// app.use(
+//   cors()
+// );
+app.use(cors({
+  origin:['https://learnify-project-pied.vercel.app'],
+  methods:["POST","GET"],
+  credentials:true,
+  optionsSuccessStatus: 200,
+}));
 app.use(cookieParser());
 app.use(express.json());
 app.use('/',Router)

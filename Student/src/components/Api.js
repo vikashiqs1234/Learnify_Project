@@ -2,8 +2,8 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 import Swal from 'sweetalert2'; // Import SweetAlert2
 
-const API_BASE_URL = 'http://localhost:5000'; // Update with your backend URL
-// const API_BASE_URL = 'https://student-study-backend.onrender.com'; // Update with your backend URL
+// const API_BASE_URL = 'http://localhost:5000'; // Update with your backend URL
+const API_BASE_URL = 'https://learnify-project.onrender.com'; // Update with your backend URL
 
 // Function to display error using SweetAlert2
 const showErrorAlert = (message) => {

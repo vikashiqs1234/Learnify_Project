@@ -140,7 +140,7 @@ const LandingPage = () => {
             {
               title: "AI Chatbot",
               desc: "Stuck on a topic? Let our AI-powered tutor help you understand in seconds.",
-              link: "/aichatbot",
+              link: "/chatbot",
               btnText: "Try AI",
               icon: "🤖",
             },
